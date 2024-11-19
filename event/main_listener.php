@@ -106,6 +106,8 @@ class main_listener implements EventSubscriberInterface
 				'FORUM_LINK_IMG'				=> $this->user->img('forum_link', 'FORUM_LINK'),
 				'FORUM_READ_SUBFORUM_IMG'		=> $this->user->img('forum_read_subforum', 'NO_UNREAD_POSTS_SUBFORUM'),
 				'FORUM_UNREAD_SUBFORUM_IMG'		=> $this->user->img('forum_unread_subforum', 'UNREAD_POSTS_SUBFORUM'),
+				'FOLDER_UNREAD_MINE_IMG'		=> $this->user->img('topic_unread_mine', 'UNREAD_POSTS_MINE'),
+				'FOLDER_MINE_IMG'				=> $this->user->img('topic_read_mine', 'NO_UNREAD_POSTS_MINE'),
 				'FORUMLEGEND_RIGHT_WIDTH'		=> $this->config['forumlegend_right_width'],
 				'FORUMLEGEND_LEFT_WIDTH'		=> $this->config['forumlegend_left_width'],
 			)
